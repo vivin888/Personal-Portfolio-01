@@ -6,28 +6,28 @@ import { useEffect } from "react";
 const projects = [
   {
     id: 1,
-    title: "Softude - Website Landing Page",
+    title:"Federated Learning Framework for Decentralized Drone Intelligence",
     description:
-      "Softude is a global IT & digital-services company that offers enterprise-level solutions such as web and mobile app development, digital transformation, AI & cloud services, ",
-    image: "/Projects/Softude.png",
-    tags: ["React.js", "Framer Motion", "TailwindCSS", "Vite"],
-    url: "https://softude.netlify.app/",
-    git: "https://github.com/abhicodes01/Softude_Redesign_LandingPage",
+      "EdgeFL-Drone is a federated learning–based decentralized drone AI system where multiple drones train models locally and share only model updates with a central server to build a secure, privacy-preserving global model using Python and Flask ",
+    image: "/Projects/img1.png",
+    tags: ["TensorFlow", "MobileNetV2", "Federated Learning", "Keras","Cloud Aggregation Server"],
+    url: "",
+    git: " ",
   },
 
   {
     id: 2,
-    title: "Mech2Door",
+    title: "Machine Learning Based Phishing Website Detection System",
     description:
-      "A full-stack MERN web app connecting users with verified local mechanics, featuring real-time booking, admin verification, and secure authentication for trusted on-demand service.",
-    image: "/Projects/Mech2Door.png",
+      "PhishGuard is a machine learning–based web application designed to identify phishing websites by analyzing URL and website features. Built using Python and Scikit-learn and deployed through a Flask web interface, the system allows users to quickly check whether a website is safe or malicious, helping prevent online fraud and improving web security.",
+    image: " ",
     tags: [
-      "Node.js",
-      "MongoDB",
-      "Express.js",
-      "PostMan",
-      "TailwindCSS",
-      "React.js",
+      "Scikit-learn",
+      "python",
+      "Flask",
+      "Pandas",
+      "NumPy",
+      "Git & GitHub",
     ],
     url: "#",
     git: "#",
@@ -35,32 +35,31 @@ const projects = [
 
   {
     id: 3,
-    title: "VirtualR - Developer Tools Website",
+    title: "Automated Leaf Disease Detection Using CNN and Image Processing",
     description:
-      "A dynamic and responsive virtual reality showcase built with React, featuring sleek UI and interactive components.",
-    image: "/Projects/VirtualR.png",
-    tags: ["Javascript", "TailwindCSS", "React.js", "Vite"],
-    url: "https://virtualr-react.netlify.app/",
+      "This project detects plant leaf diseases by analyzing uploaded images using a deep learning model. It instantly identifies the disease, shows confidence scores, and suggests treatments to help farmers take quick and accurate action.",
+    image: "/Projects/img2.png",
+    tags: ["TypeScript,", "HTML", "CSS","React.js", "TensorFlow" , "REST API"],
+    url: "",
     git: "#",
   },
 
   {
     id: 4,
-    title: "Jarvis - AI Personal Assistant",
+    title: "AI-Driven Drug Review Sentiment Analysis System",
     description:
-      "Jarvis listens to voice commands, responds in real-time with speech output, and features a dynamic 3D animated interface for an immersive experience.",
-    image: "/Projects/Jarvis.png",
+      "An intelligent sentiment prediction system that leverages Bi-LSTM neural networks and NLP pipelines to evaluate patient drug reviews, supporting healthcare analytics and informed medication choices.",
+    image: "",
     tags: [
-      "React.js",
-      "TailwindCSS",
-      "Three.js",
-      "Gemini API",
-      "SpeechRecognition",
+      "NLP",
+      "Deep Learning",
+      "Python",
+      "Healthcare AI",
     ],
     url: "#",
-    git: "https://github.com/abhicodes01/voice-assistant-jarvis",
+    git: "",
   },
-
+  /*
   {
     id: 5,
     title: "SynergyTop - Website Landing Page",
@@ -70,7 +69,7 @@ const projects = [
     tags: ["React.js", "TailwindCSS", "Framer Motion", "Vite"],
     url: "https://synergytop.netlify.app/",
     git: "https://github.com/abhicodes01/StrategyTop_Redesign_LandingPage",
-  },
+  },*/
 ];
 
 export const Projects = () => {
@@ -149,7 +148,7 @@ export const Projects = () => {
         <div className="text-center mt-12">
           <a
             target="_blank"
-            href="https://github.com/abhicodes01"
+            href="https://github.com/vivin888"
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
           >
             Check My Github <ArrowRight size={16} />

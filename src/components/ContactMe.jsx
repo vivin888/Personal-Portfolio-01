@@ -14,9 +14,9 @@ export const ContactMe = () =>{
         message:""
     })
 
-    const SERVICE_ID = "service_onk2n7c";
-    const TEMPLATE_ID = "template_5tzx358";
-    const PUBLIC_KEY = "Si2NzaIVbvb8uZ1l4";
+    const SERVICE_ID = "service_lrekt1c";
+    const TEMPLATE_ID = "template_pmha13q";
+    const PUBLIC_KEY = "ooJ0f74d5hdrxvCJL";
     const sendEmail = (e) => {
   e.preventDefault();
 
@@ -61,7 +61,7 @@ useEffect(() => {
                                 <a href=""
                                   className="text-muted-foreground text-left hover:text-primary transition-colors duration-300"
                                 >
-                                    abhijeetsinghparihar756@gmail.com
+                                     vivinrakul123@gmail.com
                                 </a>
                             </div>
                         </div>
@@ -73,11 +73,11 @@ useEffect(() => {
 
                             <div>
                                 <h4 className="font-medium text-left">LinkedIn :</h4>
-                                <a href="https://www.linkedin.com/in/abhijeet-singh-parihar-405a29248/"
+                                <a href="https://www.linkedin.com/in/vivin-rakul-8126212a0/"
                                  target="_blank"
                                   className="text-muted-foreground text-left hover:text-primary transition-colors duration-300"
                                 >
-                                    abhijeet-singh-parihar
+                                    Vivin Rakul
                                 </a>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ useEffect(() => {
                                 <a
                                   className="text-muted-foreground text-left"
                                 >
-                                    Dewas, Madhya Pradesh, India
+                                    Gobichettipalayam, Erode, Tamil Nadu, India
                                 </a>
                             </div>
                         </div>
@@ -101,15 +101,13 @@ useEffect(() => {
                     <div className="pt-8">
                         <h4 className="font-medium mb-4">Connect With Me</h4>
                         <div className="flex space-x-4 justify-center">
-                          <a className="hover:text-primary" target="_blank" href="https://github.com/abhicodes01">
+                          <a className="hover:text-primary" target="_blank" href="https://github.com/vivin888">
                             <Github/>
                           </a>
 
-                          <a className="hover:text-primary" target="_blank" href="">
-                            <Twitter/>
-                          </a>
+                          
 
-                          <a className="hover:text-primary" target="_blank" href="">
+                          <a className="hover:text-primary" target="_blank" href="https://www.instagram.com/vivinrakul_p?igsh=cDgxN2Z6bnkzd29j">
                             <Instagram/>
                           </a>
                         </div>
@@ -124,7 +122,7 @@ useEffect(() => {
                             <label className="block text-sm font-medium mb-2 text-left" htmlFor="name">Your Name</label>
                             <input type="text" id="name" name="name" value={formData.name} onChange={(e) => setFormData({...formData, name:e.target.value})} required 
                               className=" w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
-                              placeholder="Abhi Singh..."
+                              placeholder="vivin rakul..."
                             />
                         </div>
 
